@@ -78,4 +78,10 @@ Let it train till loss will be below 0.2 or even lesser. once you see that loss 
 ```
 python object_detection/export_inference_graph.py --input_type=image_tensor --pipeline_config_path=<path_to_config_file> --trained_checkpoint_prefix=<path to saved checkpoint> --output_directory=<path_to_the_folder_for_saving_inference_graph>
 ```
+## Experimental Setup : 
 
+During the time of training we are using the following command to check the time (Execution + TPU/GPU) it takes to get train : 
+```
+%time
+```
+If you are using google cloud then , it will automatically give you the details of the training and execution time of each and every levels.Rest details about the error logs , loop into the ./Error-log folder.
