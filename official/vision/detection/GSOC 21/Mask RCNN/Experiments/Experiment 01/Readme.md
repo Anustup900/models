@@ -1,6 +1,6 @@
 # MASK RCNN EXPERIMENT 01 - Time 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1H2yUKt69eWTsVgTMlC64ruLIsHH5t2oZ?usp=sharing]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1H2yUKt69eWTsVgTMlC64ruLIsHH5t2oZ?usp=sharing)
 
 Mask RCNN is a deep neural network aimed to solve instance segmentation problem in machine learning or computer vision. In other words, it can separate different objects in a image or a video. You give it a image, it gives you the object bounding boxes, classes and masks.
 There are two stages of Mask RCNN. First, it generates proposals about the regions where there might be an object based on the input image. Second, it predicts the class of the object, refines the bounding box and generates a mask in pixel level of the object based on the first stage proposal. Both stages are connected to the backbone structure. 
