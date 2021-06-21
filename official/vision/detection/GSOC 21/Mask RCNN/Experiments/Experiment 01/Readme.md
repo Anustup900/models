@@ -13,3 +13,5 @@ This experiment aims to understand the training time and performance time for th
 
 As most of the tarining and evaluations of this detction and classification based models are done on COCO database , so here we are not using that, inorder to create a differnet scenario . So the steps to create a new DB in the TF record format are as follows : 
 
+![Image 01](https://user-images.githubusercontent.com/60361231/122776227-8a44f800-d2c8-11eb-8cf2-6663987d986f.png)
+
